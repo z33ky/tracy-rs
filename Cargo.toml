@@ -1,0 +1,18 @@
+[package]
+name = "tracy-rs"
+version = "0.0.1"
+authors = ["Alexander 'z33ky' Hirsch <1zeeky@gmail.com>"]
+edition = "2018"
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+libc = "0.2.60"
+
+[features]
+default = ["enable"]
+enable = []
+no_exit = []
+on_demand = []
+dll = []
